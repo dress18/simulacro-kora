@@ -1,1 +1,43 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+@theme {
+  --color-alabastro-calido: rgb(248 245 240);
+  --color-arena-travertino: rgb(239 233 224);
+  --color-blanco-puro: rgb(255 255 255);
+  --color-espresso-arquitectonico: rgb(34 30 28);
+  --color-carbon-calido: rgb(48 43 40);
+  --color-terracota-principal: rgb(184 92 56);
+  --color-arcilla-profunda: rgb(142 64 36);
+  --color-espresso-oscuro: rgb(34 30 28);
+  --color-nogal-oscuro: rgb(58 49 44);
+  --color-taupe-medio: rgb(92 83 76);
+  --color-piedra-grisacea: rgb(105 95 87);
+  --color-lino-claro: rgb(235 228 218);
+  --color-arena-suave: rgb(194 184 172);
+  --color-borde-piedra: rgb(228 220 209);
+  --color-borde-marfil: rgb(233 226 216);
+  --color-rosa-arcilla: rgb(247 232 225);
+  --color-crema-ambar: rgb(250 240 222);
+  --color-ocre-dorado: rgb(196 134 52);
+  --color-verde-niebla: rgb(232 240 230);
+  --color-verde-salvia: rgb(90 114 85);
+  --color-arena-rosada: rgb(243 233 228);
+  --color-cobre-tierra: rgb(142 74 49);
+  --color-gris-calido: rgb(216 206 194);
+}
+
+h1, h2, h3, .brand {
+  font-family: 'Fraunces', serif;
+}
+
+body, button, nav {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.material-symbols-outlined.material-symbols-outlined {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
